@@ -2,12 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Fraunces', serif ;
+    /* font-family: 'Fraunces', serif ; */
     /* font-family: 'Barlow', sans-serif; */
 }
 
 html, body{
     overflow-x: hidden;
+}
+
+:root{
+    --red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --cyan : hsl(167, 40%, 24%); 
+    /* (graphic design text) */
+    --blue : hsl(198, 62%, 26%);
+    /* (photography text) */
+    --cyan : hsl(168, 34%, 41%);
+    /* (footer) */
+    
+    /* ### Neutral */
+    --darkblue: hsl(212, 27%, 19%);
+    --grayishblue: hsl(213, 9%, 39%);
+    --Darkblue: hsl(232, 10%, 55%);
+    --Grayishblue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
 }
 
 /* header container */
@@ -54,6 +72,7 @@ ul li{
 }
 
 header h1{
+    font-family: 'Fraunces', sans-serif;
     text-align: center;
     letter-spacing: 5px;
     color: #fff;
@@ -72,6 +91,8 @@ header h1{
 #section-one{
     width: 100%;
     display: flex;
+    font-family: 'Fraunces', serif ;
+    /* font-family: 'Barlow', sans-serif;  */
 }
 
 .section-one-partA{
@@ -80,6 +101,23 @@ header h1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.section-one-partA h2{
+    color: hsl(167, 40%, 24%);
+}
+
+.section-one-partA p{
+    /* color: hsl(213, 9%, 39%); */
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.section-one-partA a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
 }
 
 .section-one-partB{
@@ -93,5 +131,4 @@ header h1{
 
 .section-one-partB img{
     width: 100%;
-    height
 }
