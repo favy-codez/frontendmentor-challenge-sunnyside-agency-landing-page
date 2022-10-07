@@ -17,7 +17,7 @@ html, body{
     /* (graphic design text) */
     --blue : hsl(198, 62%, 26%);
     /* (photography text) */
-    --cyan : hsl(168, 34%, 41%);
+    --cyann : hsl(168, 34%, 41%);
     /* (footer) */
     
     /* ### Neutral */
@@ -109,7 +109,7 @@ header h1{
 }
 
 .section-one-partA h2{
-    color: hsl(167, 40%, 24%);
+    color: var(--darkblue);
     font-weight: 700;
     line-height: 1em;
     font-size: 2.5rem;
@@ -202,6 +202,7 @@ header h1{
     width: 100%;
     display: flex;
     font-family: 'Fraunces', serif ;
+    text-align: center;
 }
 
 .section-three-partA{
@@ -211,21 +212,53 @@ header h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 2rem;
+}
+
+:root{
+    --red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --cyan : hsl(167, 40%, 24%); 
+    /* (graphic design text) */
+    --blue : hsl(198, 62%, 26%);
+    /* (photography text) */
+    --cyann : hsl(168, 34%, 41%);
+    /* (footer) */
+    
+    /* ### Neutral */
+    --darkblue: hsl(212, 27%, 19%);
+    --grayishblue: hsl(213, 9%, 39%);
+    --Darkblue: hsl(232, 10%, 55%);
+    --Grayishblue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
 }
 
 .section-three-partA p, .section-three-partB p{
-    
+    display: block;
+    margin: 0 auto;
+    width: 57%;
+    padding: 1.5rem 0;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.section-three-partA h2 {
+    color: var(--grayishblue);
 }
 
 .section-three-partA h2, .section-three-partB h2{
+    padding: 22rem 0 0 0;
+}
 
+.section-three-partB h2{
+    color: var(--blue);
 }
 
 .section-three-partB{
     width: 50%;
     background: url(/images/desktop/image-photography.jpg);
     background-position: center;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 2rem;
 }   
