@@ -205,12 +205,27 @@ header h1{
 }
 
 .section-three-partA{
-
+    width: 50%;
+    background: url(/images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.section-three-partA p{
+.section-three-partA p, .section-three-partB p{
+    
+}
+
+.section-three-partA h2, .section-three-partB h2{
 
 }
 
 .section-three-partB{
+    width: 50%;
+    background: url(/images/desktop/image-photography.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }   
