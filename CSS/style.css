@@ -32,6 +32,7 @@ html, body{
 header{
     background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
     padding-bottom: 20rem;
@@ -61,12 +62,16 @@ ul a{
 
 ul li{
     list-style: none;
+    line-height: 30px;
 }
 
 #nav-btn{
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Fraunces', serif ;
+    text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
-    padding: 6px 13px;
+    padding: 8px 17px;
     border: none;
     border-radius: 30px;
 }
@@ -74,8 +79,8 @@ ul li{
 header h1{
     font-family: 'Fraunces', sans-serif;
     text-align: center;
-    letter-spacing: 5px;
-    color: #fff;
+    letter-spacing: 4px;
+    color: var(--darkblue);
     font-size: 3.5rem;
     margin: 5rem 0 9rem 0;
 }
@@ -97,7 +102,7 @@ header h1{
 
 .section-one-partA{
     width: 50%;
-    padding: 2rem 3rem 2rem 2rem;
+    padding: 6rem 5rem 6rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -105,6 +110,10 @@ header h1{
 
 .section-one-partA h2{
     color: hsl(167, 40%, 24%);
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 2.5rem;
+    width: 70%;
 }
 
 .section-one-partA p{
@@ -112,6 +121,8 @@ header h1{
     color: hsl(210, 4%, 67%);
     line-height: 1.5em;
     font-size: 16px;
+    width: 90%;
+    margin: 2rem 0;
 }
 
 .section-one-partA a{
@@ -124,6 +135,7 @@ header h1{
     width: 50%;
     background: url(/images/desktop/image-transform.jpg);
     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px  0 0 0;
@@ -132,3 +144,73 @@ header h1{
 .section-one-partB img{
     width: 100%;
 }
+
+/* section two */
+#section-two{
+    width: 100%;
+    display: flex;
+    font-family: 'Fraunces', serif ;
+}
+
+.section-two-partB{
+    width: 50%;
+    padding: 6rem 5rem 6rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-two-partB h2{
+    color: hsl(167, 40%, 24%);
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 2rem;
+    width: 80%;
+}
+
+.section-two-partB p{
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5em;
+    font-size: 16px;
+    width: 90%;
+    margin: 2rem 0;
+}
+
+.section-two-partB a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
+}
+
+
+.section-two-partA{
+    width: 50%;
+    background: url(/images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px  0 0 0;
+}
+
+.section-two-partB img{
+    width: 100%;
+}
+
+/* section three */
+#section-three{
+    width: 100%;
+    display: flex;
+    font-family: 'Fraunces', serif ;
+}
+
+.section-three-partA{
+
+}
+
+.section-three-partA p{
+
+}
+
+.section-three-partB{
+}   
