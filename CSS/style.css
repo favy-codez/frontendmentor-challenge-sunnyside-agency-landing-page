@@ -273,11 +273,24 @@ header h1{
 
 .section-four-one p{
     width: 90%;
-    line-height: 22px;
+    line-height: 26px;
     color: var(--grayishblue);
     font-weight: 600;
     text-align: center;
     margin: 0 auto 3rem auto;
+}
+
+.section-four-two h4{
+    color: var(--darkblue);
+    font-size: 14px;
+    font-family: 'Fraunces', serif ;
+    margin: 0 0 10px 0;
+    /* font-family: 'Barlow', sans-serif; */
+}
+
+.section-four-two p{
+    color: var(--Grayishblue);
+    font-size: 12px;
 }
 
 :root{
@@ -298,8 +311,16 @@ header h1{
     --White: hsl(0, 0%, 100%);
 } 
 
+#p2-text{
+    width: 78%;
+}
+
+#p3-text{
+    width: 89%;
+}
+
 .section-fourA{
-    border: 2px solid red;
+    
 }
 
 /* section five */
