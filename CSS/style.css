@@ -344,7 +344,13 @@ footer{
     gap: 1.6rem;
     margin: 0 0 2rem 0;
     color: var(--cyan);
+    cursor: pointer;
 }
+
+.footer-two p:hover{
+    color: hsl(166, 69%, 10%);
+}
+
 .footer-one img{
     color: var( --cyann);
 } 
@@ -356,4 +362,8 @@ footer{
 
 .footer-icons img{
     width: 14%;
+}
+
+.footer-icons img:hover{
+    color: hsl(166, 69%, 10%);
 }
