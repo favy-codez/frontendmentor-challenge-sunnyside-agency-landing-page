@@ -380,3 +380,40 @@ footer{
     background-color: hsl(166, 31%, 50%);
     transition: 0.6s;
 }
+
+/* media query */
+@media screen and (max-width:768px){
+    .section-one-partA{
+        padding: 6rem 2rem 6rem 2rem;
+    }
+    .section-one-partA p{
+        width: 100%;
+    }
+    .section-two-partB{
+        padding: 6rem 2rem 6rem 2rem;
+    }
+    .section-two-partB p{
+        width: 100%;
+    }
+    .section-three-partA h2, .section-three-partB h2{
+        padding: 20rem 0 0 0;
+    }
+    .section-three-partA p, .section-three-partB p{
+        width: 80%;
+    }
+    #section-four{
+        padding: 6rem 2rem;
+    }
+    .section-four-main{
+        gap: 10px;
+    }
+    .section-four-one p{
+        width: 94%;
+    }
+    #p2-text{
+        width: 100%;
+    }
+    #p3-text{
+        width: 100%;
+    }
+}
