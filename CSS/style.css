@@ -293,6 +293,14 @@ header h1{
     font-size: 12px;
 }
 
+#p2-text{
+    width: 78%;
+}
+
+#p3-text{
+    width: 89%;
+}
+
 :root{
     --red: hsl(7, 99%, 70%);
     --Yellow: hsl(51, 100%, 49%);
@@ -311,19 +319,41 @@ header h1{
     --White: hsl(0, 0%, 100%);
 } 
 
-#p2-text{
-    width: 78%;
-}
-
-#p3-text{
-    width: 89%;
-}
-
-.section-fourA{
-    
-}
-
 /* section five */
+#section-five{
+    display: flex;
+}
 
+#section-five img{
+    width: 26%;
+}
 
 /* footer */
+footer{
+    padding: 3rem 0;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    background-color: #90D4C5;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-two{
+    display: flex;
+    gap: 1.6rem;
+    margin: 0 0 2rem 0;
+    color: var(--cyan);
+}
+.footer-one img{
+    color: var( --cyann);
+} 
+
+.footer-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icons img{
+    width: 14%;
+}
