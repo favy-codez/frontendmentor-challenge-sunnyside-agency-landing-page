@@ -215,24 +215,6 @@ header h1{
     padding: 2rem;
 }
 
-:root{
-    --red: hsl(7, 99%, 70%);
-    --Yellow: hsl(51, 100%, 49%);
-    --cyan : hsl(167, 40%, 24%); 
-    /* (graphic design text) */
-    --blue : hsl(198, 62%, 26%);
-    /* (photography text) */
-    --cyann : hsl(168, 34%, 41%);
-    /* (footer) */
-    
-    /* ### Neutral */
-    --darkblue: hsl(212, 27%, 19%);
-    --grayishblue: hsl(213, 9%, 39%);
-    --Darkblue: hsl(232, 10%, 55%);
-    --Grayishblue: hsl(210, 4%, 67%);
-    --White: hsl(0, 0%, 100%);
-}
-
 .section-three-partA p, .section-three-partB p{
     display: block;
     margin: 0 auto;
@@ -267,7 +249,7 @@ header h1{
 /* section-four */
 #section-four{
     text-align: center;
-    padding: 6rem 3rem ;
+    padding: 6rem 8rem ;
 }
 
 #section-four h2{
@@ -276,21 +258,51 @@ header h1{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin: 0 0 2.8rem 0;
+    margin: 0 0 5rem 0;
 }
 
 .section-four-main{
     display: flex;
-    
 }
 
 .section-four-one img{
     width: 60px;
     border-radius: 100%;
-    margin: 0 0 2.8rem 0;
+    margin: 0 auto 2.8rem auto;
 }
 
 .section-four-one p{
-    width: 80px;
-    line-height: 13px;
+    width: 90%;
+    line-height: 22px;
+    color: var(--grayishblue);
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto 3rem auto;
 }
+
+:root{
+    --red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --cyan : hsl(167, 40%, 24%); 
+    /* (graphic design text) */
+    --blue : hsl(198, 62%, 26%);
+    /* (photography text) */
+    --cyann : hsl(168, 34%, 41%);
+    /* (footer) */
+    
+    /* ### Neutral */
+    --darkblue: hsl(212, 27%, 19%);
+    --grayishblue: hsl(213, 9%, 39%);
+    --Darkblue: hsl(232, 10%, 55%);
+    --Grayishblue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+} 
+
+.section-fourA{
+    border: 2px solid red;
+}
+
+/* section five */
+
+
+/* footer */
