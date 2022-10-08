@@ -203,6 +203,13 @@ header h1{
     color: hsl(212, 27%, 19%);
 }
 
+#learn1{
+    border-bottom: 3px solid #FFD101;
+ }
+
+ #learn2{
+    border-bottom: 3px solid #FE7261;
+ }
 
 .section-two-partA{
     width: 50%;
