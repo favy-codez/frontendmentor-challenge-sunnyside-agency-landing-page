@@ -499,8 +499,7 @@ header h1{
 .section-two-mobile-partB{
     width: 100%;
     padding: 6rem 2rem 6rem 2rem;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 .section-two-mobile-partB h2{
     color: var(--darkblue);
@@ -509,7 +508,7 @@ header h1{
     font-size: 2.8rem;
     margin: 0 auto;
     text-align: center;
-    width: 70%;
+    width: 100%;
 }
 .section-two-mobile-partB p{
     color: hsl(210, 4%, 67%);
@@ -527,88 +526,44 @@ header h1{
     text-align: center;
 }
 #learn2{
-    border-bottom: 1px outset #FFD101;
+    border-bottom: 2px outset #FFD101;
     width: 24%;
+    display: block;
     margin: 0 auto;
 }
-}
-}
-
-
-
-.section-one-partB{
-    width: 50%;
-    background: url(/images/desktop/image-transform.jpg);
-    background-position: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px  0 0 0;
-}
-
-.section-one-partB img{
-    width: 100%;
-}
-
-#img-mobile{
-    display: none;
-}
-
-/* section two */
-#section-two{
-    width: 100%;
-    display: flex;
-    font-family: 'Fraunces', serif ;
-}
-
-.section-two-partB{
-    width: 50%;
-    padding: 6rem 5rem 6rem 5rem;
-    display: flex;
+#section-three{
     flex-direction: column;
-    align-items: flex-start;
 }
-
-.section-two-partB h2{
-    color: hsl(167, 40%, 24%);
-    font-weight: 700;
-    line-height: 1em;
-    font-size: 2rem;
-    width: 80%;
-}
-
-.section-two-partB p{
-    color: hsl(210, 4%, 67%);
-    line-height: 1.5em;
-    font-size: 16px;
-    width: 90%;
-    margin: 2rem 0;
-}
-
-.section-two-partB a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: hsl(212, 27%, 19%);
-}
-
-#learn1{
-    border-bottom: 3px solid #FFD101;
- }
-
- #learn2{
-    border-bottom: 3px solid #FE7261;
- }
-
-.section-two-partA{
-    width: 50%;
-    background: url(/images/desktop/image-stand-out.jpg);
-    background-position: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px  0 0 0;
-}
-
-.section-two-partB img{
+.section-three-partA{
     width: 100%;
 }
+.section-three-partB{
+    width: 100%;
+}
+#section-four h2{
+    font-size: 2rem;
+}
+.section-four-main{
+    flex-direction: column;
+}
+#p2-text, .section-four-one p, #p3-text{
+    font-size: 1.2rem;
+    width: 67%;
+}
+.section-four-one img{
+    width: 40%;
+}
+.section-four-two h4{
+    font-size: 19px;
+}
+.section-four-two p{
+    font-size: 16px;
+}
+#section-five{
+    
+}
+}
+}
+
+
+
