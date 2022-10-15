@@ -86,6 +86,16 @@ ul li{
     line-height: 30px;
 }
 
+/* hamburger */
+.nav-toggle{
+    display: none;
+}
+
+.links{
+    height: auto;
+}
+
+/* end of hamburger */
 #nav-btn{
     /* font-family: 'Barlow', sans-serif; */
     font-family: 'Fraunces', serif ;
@@ -585,6 +595,49 @@ header h1{
 .footer-icons img{
     width: 40%;
 }
+/* hamburger */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-toggle{
+    display: block;
+}
+.links{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+/* toggle class */
+.show-links{
+    height: 10rem;
+/* }
+.nav-toggle:hover {
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+  }
+  .logo {
+    height: 40px;
+  }
+  .links a {
+    color: var(--clr-grey-3);
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+  }
+  .links a:hover {
+    background: var(--clr-primary-8);
+    color: var(--clr-primary-5);
+    padding-left: 1.5rem;
+  }
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+  } */
 }
 }
 
